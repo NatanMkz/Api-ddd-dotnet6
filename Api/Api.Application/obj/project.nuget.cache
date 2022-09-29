@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "emm+Ix9Jcqsls3peIvAkg2BQHOEo+tdvYDfYcABpY26NQicUr16wJR364Hc1fBOrFyL3ghOjoOx5Q6NSYRsSqg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vlnote52\\Desktop\\Curso\\api\\Api\\Api.Application\\Api.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vlnote52\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,17 @@
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Infrastructure\bin\Debug\net6.0\Api.Infrastructure.deps.json
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Infrastructure\bin\Debug\net6.0\Api.Infrastructure.dll
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Infrastructure\bin\Debug\net6.0\ref\Api.Infrastructure.dll
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Infrastructure\bin\Debug\net6.0\Api.Infrastructure.pdb
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Infrastructure\obj\Debug\net6.0\Api.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Infrastructure\obj\Debug\net6.0\Api.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Infrastructure\obj\Debug\net6.0\Api.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Infrastructure\obj\Debug\net6.0\Api.Infrastructure.AssemblyInfo.cs
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Infrastructure\obj\Debug\net6.0\Api.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Infrastructure\obj\Debug\net6.0\Api.Infrastructure.dll
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Infrastructure\obj\Debug\net6.0\ref\Api.Infrastructure.dll
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Infrastructure\obj\Debug\net6.0\Api.Infrastructure.pdb
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Infrastructure\bin\Debug\net6.0\Api.Application.dll
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Infrastructure\bin\Debug\net6.0\Api.Domain.dll
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Infrastructure\bin\Debug\net6.0\Api.Application.pdb
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Infrastructure\bin\Debug\net6.0\Api.Domain.pdb
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Infrastructure\obj\Debug\net6.0\Api.Infrastructure.csproj.CopyComplete

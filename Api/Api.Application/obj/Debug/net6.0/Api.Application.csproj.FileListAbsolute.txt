@@ -1,0 +1,15 @@
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Application\bin\Debug\net6.0\Api.Application.deps.json
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Application\bin\Debug\net6.0\Api.Application.dll
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Application\bin\Debug\net6.0\ref\Api.Application.dll
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Application\bin\Debug\net6.0\Api.Application.pdb
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Application\obj\Debug\net6.0\Api.Application.csproj.AssemblyReference.cache
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Application\obj\Debug\net6.0\Api.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Application\obj\Debug\net6.0\Api.Application.AssemblyInfoInputs.cache
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Application\obj\Debug\net6.0\Api.Application.AssemblyInfo.cs
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Application\obj\Debug\net6.0\Api.Application.csproj.CoreCompileInputs.cache
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Application\obj\Debug\net6.0\Api.Application.dll
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Application\obj\Debug\net6.0\ref\Api.Application.dll
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Application\obj\Debug\net6.0\Api.Application.pdb
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Application\bin\Debug\net6.0\Api.Domain.dll
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Application\bin\Debug\net6.0\Api.Domain.pdb
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Application\obj\Debug\net6.0\Api.Application.csproj.CopyComplete

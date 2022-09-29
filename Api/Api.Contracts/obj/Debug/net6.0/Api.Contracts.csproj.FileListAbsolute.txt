@@ -1,0 +1,12 @@
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Contracts\bin\Debug\net6.0\Api.Contracts.deps.json
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Contracts\bin\Debug\net6.0\Api.Contracts.dll
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Contracts\bin\Debug\net6.0\ref\Api.Contracts.dll
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Contracts\bin\Debug\net6.0\Api.Contracts.pdb
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Contracts\obj\Debug\net6.0\Api.Contracts.csproj.AssemblyReference.cache
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Contracts\obj\Debug\net6.0\Api.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Contracts\obj\Debug\net6.0\Api.Contracts.AssemblyInfoInputs.cache
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Contracts\obj\Debug\net6.0\Api.Contracts.AssemblyInfo.cs
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Contracts\obj\Debug\net6.0\Api.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Contracts\obj\Debug\net6.0\Api.Contracts.dll
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Contracts\obj\Debug\net6.0\ref\Api.Contracts.dll
+C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Contracts\obj\Debug\net6.0\Api.Contracts.pdb
