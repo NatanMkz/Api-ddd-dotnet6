@@ -10,3 +10,15 @@ C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Domain\obj\Debug\net6.0\Api.Domain.c
 C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Domain\obj\Debug\net6.0\Api.Domain.dll
 C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Domain\obj\Debug\net6.0\ref\Api.Domain.dll
 C:\Users\vlnote52\Desktop\Curso\api\Api\Api.Domain\obj\Debug\net6.0\Api.Domain.pdb
+C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Domain\bin\Debug\net6.0\Api.Domain.deps.json
+C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Domain\bin\Debug\net6.0\Api.Domain.dll
+C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Domain\bin\Debug\net6.0\Api.Domain.pdb
+C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Domain\obj\Debug\net6.0\Api.Domain.csproj.AssemblyReference.cache
+C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Domain\obj\Debug\net6.0\Api.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Domain\obj\Debug\net6.0\Api.Domain.AssemblyInfoInputs.cache
+C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Domain\obj\Debug\net6.0\Api.Domain.AssemblyInfo.cs
+C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Domain\obj\Debug\net6.0\Api.Domain.csproj.CoreCompileInputs.cache
+C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Domain\obj\Debug\net6.0\Api.Domain.dll
+C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Domain\obj\Debug\net6.0\refint\Api.Domain.dll
+C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Domain\obj\Debug\net6.0\Api.Domain.pdb
+C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Domain\obj\Debug\net6.0\ref\Api.Domain.dll

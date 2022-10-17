@@ -5,10 +5,14 @@
       "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -65,25 +69,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vlnote52\\.nuget\\packages\\": {},
+    "C:\\Users\\okea\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vlnote52\\Desktop\\Curso\\api\\Api\\Api.Application\\Api.Application.csproj",
+      "projectUniqueName": "C:\\Users\\okea\\source\\repos\\Api\\Api-ddd-dotnet6\\Api\\Api.Application\\Api.Application.csproj",
       "projectName": "Api.Application",
-      "projectPath": "C:\\Users\\vlnote52\\Desktop\\Curso\\api\\Api\\Api.Application\\Api.Application.csproj",
-      "packagesPath": "C:\\Users\\vlnote52\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vlnote52\\Desktop\\Curso\\api\\Api\\Api.Application\\obj\\",
+      "projectPath": "C:\\Users\\okea\\source\\repos\\Api\\Api-ddd-dotnet6\\Api\\Api.Application\\Api.Application.csproj",
+      "packagesPath": "C:\\Users\\okea\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\okea\\source\\repos\\Api\\Api-ddd-dotnet6\\Api\\Api.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\vlnote52\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\okea\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -99,8 +103,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\vlnote52\\Desktop\\Curso\\api\\Api\\Api.Domain\\Api.Domain.csproj": {
-              "projectPath": "C:\\Users\\vlnote52\\Desktop\\Curso\\api\\Api\\Api.Domain\\Api.Domain.csproj"
+            "C:\\Users\\okea\\source\\repos\\Api\\Api-ddd-dotnet6\\Api\\Api.Domain\\Api.Domain.csproj": {
+              "projectPath": "C:\\Users\\okea\\source\\repos\\Api\\Api-ddd-dotnet6\\Api\\Api.Domain\\Api.Domain.csproj"
             }
           }
         }
@@ -126,7 +130,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -135,7 +140,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.109\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

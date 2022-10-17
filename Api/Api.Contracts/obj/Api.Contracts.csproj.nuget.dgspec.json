@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vlnote52\\Desktop\\Curso\\api\\Api\\Api.Contracts\\Api.Contracts.csproj": {}
+    "C:\\Users\\okea\\source\\repos\\Api\\Api-ddd-dotnet6\\Api\\Api.Contracts\\Api.Contracts.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vlnote52\\Desktop\\Curso\\api\\Api\\Api.Contracts\\Api.Contracts.csproj": {
+    "C:\\Users\\okea\\source\\repos\\Api\\Api-ddd-dotnet6\\Api\\Api.Contracts\\Api.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vlnote52\\Desktop\\Curso\\api\\Api\\Api.Contracts\\Api.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\okea\\source\\repos\\Api\\Api-ddd-dotnet6\\Api\\Api.Contracts\\Api.Contracts.csproj",
         "projectName": "Api.Contracts",
-        "projectPath": "C:\\Users\\vlnote52\\Desktop\\Curso\\api\\Api\\Api.Contracts\\Api.Contracts.csproj",
-        "packagesPath": "C:\\Users\\vlnote52\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vlnote52\\Desktop\\Curso\\api\\Api\\Api.Contracts\\obj\\",
+        "projectPath": "C:\\Users\\okea\\source\\repos\\Api\\Api-ddd-dotnet6\\Api\\Api.Contracts\\Api.Contracts.csproj",
+        "packagesPath": "C:\\Users\\okea\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\okea\\source\\repos\\Api\\Api-ddd-dotnet6\\Api\\Api.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\vlnote52\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\okea\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -51,7 +51,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -60,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.109\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

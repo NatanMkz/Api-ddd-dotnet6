@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kNP1FP6iYYyADXbevyix5zi+KskZ2bkoqN/GfqruwzeWE0fbRvPpW2Pk4ayMJQK/NXY1ex8Uy2Gea3ggSSB0UQ==",
+  "dgSpecHash": "c90z7d2B3LqYyQh2iAOD7ptEcBkI2+h7Uarbp2WPtoOBVm93PEQwpQNYzAVqLwjmpJePq5fnJ2zK5paJNSlWjg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vlnote52\\Desktop\\Curso\\api\\Api\\Api.Domain\\Api.Domain.csproj",
+  "projectFilePath": "C:\\Users\\okea\\source\\repos\\Api\\Api-ddd-dotnet6\\Api\\Api.Domain\\Api.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace Api.Api.Middleware
@@ -15,21 +16,25 @@ namespace Api.Api.Middleware
             _next = next;
         }
 
-        // public async Task Invoke(HttpContext context)
-        // {
-        //     try
-        //     {
-        //         await _next(context);
-        //     }
-        //     catch(Exception ex)
-        //     {
-        //         //await HandleExceptionAsync(context, ex);
-        //     }
-        // }
+        public async Task Invoke(HttpContext context)
+        {
+            try
+            {
+                await _next(context);
+            }
+            catch(Exception ex)
+            {
+                await HandleExceptionAsync(context, ex);
+            }
+        }
 
-        // private Task HandleExceptionAsync(HttpContext context, Exception ex)
-        // {
-        //     var code = HttpStatusCode.InternalServerError;
-        // }
+        private Task HandleExceptionAsync(HttpContext context, Exception ex)
+        {
+            var code = HttpStatusCode.InternalServerError;
+            var result = JsonSerializer.Serialize(new {error = "Ocorreu um erro ao tentar processar sua request"});
+            context.Response.ContentType = "application/json";
+            context.Response.StatusCode = (int)code;
+            return context.Response.WriteAsync(result);
+        }
     }
 }
