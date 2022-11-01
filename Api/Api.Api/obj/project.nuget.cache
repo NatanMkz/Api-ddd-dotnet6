@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Z3b/Yg9ZXwu8WwI9V4c6sedxVZ8z0AnMwpxHoa5drcf//DHnH42za8l3NSb287HLIQ9naKB1jFFpGPqRMux7hQ==",
+  "dgSpecHash": "zfKLJMnY2GDh273ifj1eG9mduHbTl+opS+nbCoaJzFTa2gcISNcQAoEAqt51m9vrQlI9IYuINPp2J0H5RKQVlg==",
   "success": true,
   "projectFilePath": "C:\\Users\\okea\\source\\repos\\Api\\Api-ddd-dotnet6\\Api\\Api.Api\\Api.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\okea\\.nuget\\packages\\erroror\\1.0.1\\erroror.1.0.1.nupkg.sha512",
     "C:\\Users\\okea\\.nuget\\packages\\fluentresults\\3.14.0\\fluentresults.3.14.0.nupkg.sha512",
+    "C:\\Users\\okea\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\okea\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\okea\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\okea\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\okea\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\okea\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",

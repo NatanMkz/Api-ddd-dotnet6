@@ -11,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
     builder.Services
         .AddAplication()
         .AddInfrastructure(builder.Configuration);
-    builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
+    //builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
     //builder.Services.AddControllers(options => options.Filters.Add<ErrorHandlingFilterAttribute>());
     builder.Services.AddControllers();
 

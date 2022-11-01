@@ -3,14 +3,14 @@ using Api.Application.Common.Interfaces.Persistence;
 using Api.Domain.Common.Errors;
 using Api.Domain.Entities;
 using ErrorOr;
-namespace Api.Application.Services.Authentication;
+namespace Api.Application.Services.Authentication.Commands;
 
-public class AuthenticationService : IAuthenticationService
+public class AuthenticationCommandService : IAuthenticationCommandService
 {
     private readonly IJwtTokenGenerator _jwtTokenGenerator;
     private readonly IUserRepository _userRepository;
 
-    public AuthenticationService(IJwtTokenGenerator jwtTokenGenerator, IUserRepository userRepository)
+    public AuthenticationCommandService(IJwtTokenGenerator jwtTokenGenerator, IUserRepository userRepository)
     {
         _jwtTokenGenerator = jwtTokenGenerator;
         _userRepository = userRepository;
@@ -39,25 +39,25 @@ public class AuthenticationService : IAuthenticationService
         return new AuthenticationResult(user, token);
     }
 
-    public ErrorOr<AuthenticationResult> Login(string email, string password)
-    {
-        // 1. Validar se o usuário existe
-            if(_userRepository.GetUserByEmail(email) is not User user)
-            {
-                return Errors.Authentication.InvalidCredentials;
-            }
-        // 2. Validar se a senhas está correta 
+    // public ErrorOr<AuthenticationResult> Login(string email, string password)
+    // {
+    //     // 1. Validar se o usuário existe
+    //         if(_userRepository.GetUserByEmail(email) is not User user)
+    //         {
+    //             return Errors.Authentication.InvalidCredentials;
+    //         }
+    //     // 2. Validar se a senhas está correta 
 
-            if(user.Password != password)
-            {
-                return new[] { Errors.Authentication.InvalidCredentials };
-            }
+    //         if(user.Password != password)
+    //         {
+    //             return new[] { Errors.Authentication.InvalidCredentials };
+    //         }
 
-        // 3. Gerar o token de acesso
+    //     // 3. Gerar o token de acesso
 
-        var token = _jwtTokenGenerator.GenerateToken(user);
+    //     var token = _jwtTokenGenerator.GenerateToken(user);
 
 
-        return new AuthenticationResult(user, token);
-    }
+    //     return new AuthenticationResult(user, token);
+    // }
 }

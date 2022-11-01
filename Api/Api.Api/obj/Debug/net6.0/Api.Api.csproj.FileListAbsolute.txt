@@ -82,3 +82,6 @@ C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\Micr
 C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\FluentResults.dll
 C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\ErrorOr.dll
+C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\MediatR.dll
+C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\MediatR.Contracts.dll
+C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
