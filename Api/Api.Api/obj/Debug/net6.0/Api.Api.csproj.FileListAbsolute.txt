@@ -85,3 +85,6 @@ C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\Erro
 C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\MediatR.dll
 C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\MediatR.Contracts.dll
 C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\Mapster.dll
+C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\Mapster.Core.dll
+C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\Mapster.DependencyInjection.dll
