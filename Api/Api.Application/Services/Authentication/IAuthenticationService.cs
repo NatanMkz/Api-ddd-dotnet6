@@ -1,8 +1,8 @@
 namespace Api.Application.Services.Authentication;
-
+using ErrorOr;
 public interface IAuthenticationService
 {
-    AuthenticationResult Register(string firstName, string lastName, string email, string token);
+    ErrorOr<AuthenticationResult> Register(string firstName, string lastName, string email, string token);
 
-    AuthenticationResult Login(string email, string password);
+    ErrorOr<AuthenticationResult> Login(string email, string password);
 }

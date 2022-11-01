@@ -79,3 +79,6 @@ C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\obj\Debug\net6.0\Api.
 C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\obj\Debug\net6.0\ref\Api.Api.dll
 C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
 C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\FluentResults.dll
+C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\ErrorOr.dll

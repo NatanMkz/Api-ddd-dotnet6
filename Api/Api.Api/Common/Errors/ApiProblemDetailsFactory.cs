@@ -7,11 +7,11 @@ using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.Extensions.Options;
 
-namespace Api.Api.Errors;
+namespace Api.Api.Common.Errors;
 
 public class ApiProblemDetailsFactory : ProblemDetailsFactory
 {
-     private readonly ApiBehaviorOptions _options;
+    private readonly ApiBehaviorOptions _options;
     //private readonly Action<ProblemDetailsContext>? _configure;
 
     public ApiProblemDetailsFactory(IOptions<ApiBehaviorOptions> options)
@@ -58,7 +58,7 @@ public class ApiProblemDetailsFactory : ProblemDetailsFactory
             throw new ArgumentNullException(nameof(modelStateDictionary));
         }
 
-        statusCode ??= 400;
+        statusCode ??= 500;
 
         var problemDetails = new ValidationProblemDetails(modelStateDictionary)
         {
@@ -100,8 +100,6 @@ public class ApiProblemDetailsFactory : ProblemDetailsFactory
         {
             problemDetails.Extensions.Add("errorCodes", errors.Select(e=> e.Code));
         }
-
-        //_configure?.Invoke(new() { HttpContext = httpContext!, ProblemDetails = problemDetails });
     }
 
 }

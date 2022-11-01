@@ -1,6 +1,6 @@
 namespace Api.Contracts.Authentication;
 
-public record RegisterRequest(
+public record AuthenticationResponse(
     Guid Id,
     string firstName,
     string lastName,

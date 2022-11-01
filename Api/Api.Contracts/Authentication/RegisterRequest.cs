@@ -1,6 +1,6 @@
 namespace Api.Contracts.Authentication;
 
-public record RegisterResponse(
+public record RegisterRequest(
     string FirstName,
     string LastName,
     string Email,

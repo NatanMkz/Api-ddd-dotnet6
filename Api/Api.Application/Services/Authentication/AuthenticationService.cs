@@ -1,7 +1,8 @@
 using Api.Application.Common.Interfaces.Authentication;
 using Api.Application.Common.Interfaces.Persistence;
+using Api.Domain.Common.Errors;
 using Api.Domain.Entities;
-
+using ErrorOr;
 namespace Api.Application.Services.Authentication;
 
 public class AuthenticationService : IAuthenticationService
@@ -15,13 +16,13 @@ public class AuthenticationService : IAuthenticationService
         _userRepository = userRepository;
     }
 
-    public AuthenticationResult Register(string firstName, string lastName, string email, string password)
+    public ErrorOr<AuthenticationResult> Register(string firstName, string lastName, string email, string password)
     {
         //1. Verificar se o usuário existe
 
             if(_userRepository.GetUserByEmail(email) is not null)
             {
-                throw new Exception("Usuário já existe");
+               return Errors.User.DuplicateEmail;
             }
 
         //2. Criar o usuario (generate unique ID) & persistencia de dados
@@ -38,18 +39,18 @@ public class AuthenticationService : IAuthenticationService
         return new AuthenticationResult(user, token);
     }
 
-    public AuthenticationResult Login(string email, string password)
+    public ErrorOr<AuthenticationResult> Login(string email, string password)
     {
         // 1. Validar se o usuário existe
             if(_userRepository.GetUserByEmail(email) is not User user)
             {
-                throw new Exception("Não existe um usuário com este email");
+                return Errors.Authentication.InvalidCredentials;
             }
         // 2. Validar se a senhas está correta 
 
             if(user.Password != password)
             {
-                throw new Exception("Senha incorreta");
+                return new[] { Errors.Authentication.InvalidCredentials };
             }
 
         // 3. Gerar o token de acesso
