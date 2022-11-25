@@ -8,9 +8,11 @@ using MediatR;
 using Api.Application.Authentication.Commands.Register;
 using Api.Application.Authentication.Queries.Login;
 using MapsterMapper;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Api.Api.Controllers;
 [Route("auth")]
+[AllowAnonymous]
 public class AuthenticationController : ApiController
 {
     private readonly ISender _mediator;

@@ -23,11 +23,14 @@ var app = builder.Build();
     //app.UseMiddleware<ErrorHandlingMiddleware>();
     app.UseExceptionHandler("/error");
 
-    app.Map("/error", (HttpContext httpContext) =>
-    {
-        Exception? exception = httpContext.Features.Get<IExceptionHandlerFeature>()?.Error;
-        return Results.Problem();
-    });
+    // app.Map("/error", (HttpContext httpContext) =>
+    // {
+    //     Exception? exception = httpContext.Features.Get<IExceptionHandlerFeature>()?.Error;
+    //     return Results.Problem();
+    // });
+
+    app.UseAuthentication();
+    app.UseAuthorization();
     app.UseHttpsRedirection();
     app.MapControllers();
     app.Run();
