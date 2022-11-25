@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "reRHaXL1cnA2RxPKtVdDW8Dm41WjH88h/sOhHTHGFeUlT0lygLl7BhoDs3CWk39+e3BO92/wwF8uNzBjjhWy0A==",
+  "dgSpecHash": "byx6HH8Wb3c0OV5HbFzYjdyRfR1BY4i8Es3lDt6rdAlpEz/U47JwlQSCwNv1p7KobBD4ZFjHY3tGlArwJueWrg==",
   "success": true,
   "projectFilePath": "C:\\Users\\okea\\source\\repos\\Api\\Api-ddd-dotnet6\\Api\\Api.Infrastructure\\Api.Infrastructure.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\okea\\.nuget\\packages\\erroror\\1.0.1\\erroror.1.0.1.nupkg.sha512",
+    "C:\\Users\\okea\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
     "C:\\Users\\okea\\.nuget\\packages\\fluentresults\\3.14.0\\fluentresults.3.14.0.nupkg.sha512",
+    "C:\\Users\\okea\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
+    "C:\\Users\\okea\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\okea\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\okea\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\okea\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\okea\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

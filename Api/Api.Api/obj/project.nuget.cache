@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "U91ZAzaV5ylVcgQjTSrlRr2rSeynME8YN79hOEe5Na5p292ND4iQ8BKcCGe6FkZUDgja/QJ69xciyyv8/hTOjg==",
+  "dgSpecHash": "ij+7ZtckGUkuWFle9DmxO+GETOC+HM9xysB8md0DCajwE0e7j/fZuYoMlaZCL6jqNZSYYM4TWDNeyrB/uNsfMw==",
   "success": true,
   "projectFilePath": "C:\\Users\\okea\\source\\repos\\Api\\Api-ddd-dotnet6\\Api\\Api.Api\\Api.Api.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\okea\\.nuget\\packages\\erroror\\1.0.1\\erroror.1.0.1.nupkg.sha512",
+    "C:\\Users\\okea\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
     "C:\\Users\\okea\\.nuget\\packages\\fluentresults\\3.14.0\\fluentresults.3.14.0.nupkg.sha512",
+    "C:\\Users\\okea\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
+    "C:\\Users\\okea\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\okea\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\okea\\.nuget\\packages\\mapster\\7.3.0\\mapster.7.3.0.nupkg.sha512",
     "C:\\Users\\okea\\.nuget\\packages\\mapster.core\\1.2.0\\mapster.core.1.2.0.nupkg.sha512",
     "C:\\Users\\okea\\.nuget\\packages\\mapster.dependencyinjection\\1.0.0\\mapster.dependencyinjection.1.0.0.nupkg.sha512",

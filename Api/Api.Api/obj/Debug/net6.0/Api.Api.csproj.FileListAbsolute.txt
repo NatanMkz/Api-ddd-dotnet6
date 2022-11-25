@@ -88,3 +88,6 @@ C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\Medi
 C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\Mapster.dll
 C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\Mapster.Core.dll
 C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\Mapster.DependencyInjection.dll
+C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll

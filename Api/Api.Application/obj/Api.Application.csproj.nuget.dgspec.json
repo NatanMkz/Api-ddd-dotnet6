@@ -52,7 +52,15 @@
           "dependencies": {
             "ErrorOr": {
               "target": "Package",
-              "version": "[1.0.1, )"
+              "version": "[1.2.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.2.2, )"
             },
             "MediatR": {
               "target": "Package",
@@ -87,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -135,7 +143,7 @@
           "dependencies": {
             "ErrorOr": {
               "target": "Package",
-              "version": "[1.0.1, )"
+              "version": "[1.2.1, )"
             }
           },
           "imports": [
@@ -154,7 +162,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
