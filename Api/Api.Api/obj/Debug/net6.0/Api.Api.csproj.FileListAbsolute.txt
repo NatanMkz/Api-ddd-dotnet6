@@ -91,3 +91,6 @@ C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\Maps
 C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\FluentValidation.dll
 C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Api\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
