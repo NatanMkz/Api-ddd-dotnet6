@@ -1,0 +1,42 @@
+@token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MzIwMWQ5Zi0yODllLTQ2MWYtOGRiMC00YmZiMzAyN2E1ZWUiLCJnaXZlbl9uYW1lIjoiTmF0YW4iLCJmYW1pbHlfbmFtZSI6Ik1hcnRpbnMiLCJqdGkiOiI2ZGJlYzk0MS1hYzRiLTQwYzYtYWNjOS1hMjI4ZjU0M2RiODQiLCJleHAiOjE2Njk3MjgwNjMsImlzcyI6IkFwaSIsImF1ZCI6IkFwaSJ9.1SBLag_xNFWGbzJ1R0HCCs0bXBDL-o5LXsWUr_FzaRE
+@hostId=asdf
+@host=https://localhost:7034
+
+POST {{host}}/hosts/{{hostId}}/menus
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+    
+    "name": "Menu do Judeu",
+    "description": "Menu contendo as comidas preparadas pelo judeu",
+    
+    "sections": [
+        {
+            
+            "name": "Panqueca frango com catupiry",
+            "description": "uma comida estranha desde a textura ao sabor",
+            "items": [
+                {
+                    
+                    "name": "Panqueca",
+                    "description": "uma massa feita a partir de ovos, leite e farinha de trigo"
+                    
+                },
+                {
+                    
+                    "name": "frango frito",
+                    "description": "peito de frango desossado frito na panela e desfiado"
+                    
+                },
+                {
+                    
+                    "name": "Catupiry",
+                    "description": "requeijão comprado no koch"
+                    
+                }
+            ]
+        }
+    ]
+
+}

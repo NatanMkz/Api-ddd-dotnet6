@@ -11,7 +11,7 @@ public sealed class HostId : ValueObject
     {
         Value = value;
     }
-    public static HostId CreateUnique()
+    public static HostId CreateUnique(string hostId)
     {
         return new(Guid.NewGuid());
     }
@@ -20,4 +20,5 @@ public sealed class HostId : ValueObject
     {
         yield return Value;
     }
+    
 }

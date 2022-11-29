@@ -19,10 +19,18 @@ public static class DependencyInjection
         this IServiceCollection services,
         Microsoft.Extensions.Configuration.ConfigurationManager configuration)
     {
-        services.AddAuth(configuration);
+        services.AddAuth(configuration).AddPersistence();
         services.AddSingleton<IDateTimeProvider, DateTimeProvider>();
 
+        
+
+        return services;
+    }
+
+    public static IServiceCollection AddPersistence(this IServiceCollection services)
+    {
         services.AddScoped<IUserRepository, UserRepository>();
+        services.AddScoped<IMenuRepository, MenuRepository>();
 
         return services;
     }
@@ -35,7 +43,8 @@ public static class DependencyInjection
         services.AddSingleton(Options.Create(JwtSettings));
         services.AddSingleton<IJwtTokenGenerator, JwtTokenGenerator>();
 
-        services.AddAuthentication(defaultScheme: JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(x=> x.TokenValidationParameters = new TokenValidationParameters{
+        services.AddAuthentication(defaultScheme: JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(x => x.TokenValidationParameters = new TokenValidationParameters
+        {
             ValidateIssuer = true,
             ValidateAudience = true,
             ValidateLifetime = true,

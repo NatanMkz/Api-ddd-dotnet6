@@ -29,5 +29,8 @@ public abstract class Entity<TId> : IEquatable<Entity<TId>> where TId : notnull
         return !Equals(left, right);
     }
 
-
+    public override int GetHashCode()
+    {
+        throw new NotImplementedException();
+    }
 }
