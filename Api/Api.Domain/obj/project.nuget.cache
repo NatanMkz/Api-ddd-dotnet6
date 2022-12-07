@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FLUusE9u/wTA9YfakJ4zKhUA/2f/HgN4VH7XmOXp0MdWpEKCg/Bk6wbJRdXrF9pSiGepdOk4kqvcWkoZwo8z4g==",
+  "dgSpecHash": "zqSUTqq2JmGqhW85/oXwh+RWrc+cyw2mi4qXjelTaxmZZifcndR0KQSQcnbHcz+wPebFx0PeDiKS+gp/IJLlyg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\okea\\source\\repos\\Api\\Api-ddd-dotnet6\\Api\\Api.Domain\\Api.Domain.csproj",
+  "projectFilePath": "C:\\Users\\okea\\source\\repos\\Api-ddd-dotnet6\\Api\\Api.Domain\\Api.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\okea\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512"
   ],

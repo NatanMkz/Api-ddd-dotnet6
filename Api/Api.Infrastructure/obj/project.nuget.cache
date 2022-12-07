@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uL7oVPWk7pEotNVGnoEnfJTk85Zq3EiiK5sDp1bFqVQpWfkVSaKbRLSXQY562WL81rSdALnyB9psbWML1n2vHw==",
+  "dgSpecHash": "LklPofwp1GqeEHvHoPp8H6X6/9km1rQOyEn8InAyXhdhVw0QCTTPVDZTPZgvPuZfvZ0lQJhF28bRHa3JhLFbhw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\okea\\source\\repos\\Api\\Api-ddd-dotnet6\\Api\\Api.Infrastructure\\Api.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\okea\\source\\repos\\Api-ddd-dotnet6\\Api\\Api.Infrastructure\\Api.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\okea\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
     "C:\\Users\\okea\\.nuget\\packages\\fluentresults\\3.14.0\\fluentresults.3.14.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\okea\\source\\repos\\Api\\Api-ddd-dotnet6\\Api\\Api.Domain\\Api.Domain.csproj": {}
+    "C:\\Users\\okea\\source\\repos\\Api-ddd-dotnet6\\Api\\Api.Domain\\Api.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\okea\\source\\repos\\Api\\Api-ddd-dotnet6\\Api\\Api.Domain\\Api.Domain.csproj": {
+    "C:\\Users\\okea\\source\\repos\\Api-ddd-dotnet6\\Api\\Api.Domain\\Api.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\okea\\source\\repos\\Api\\Api-ddd-dotnet6\\Api\\Api.Domain\\Api.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\okea\\source\\repos\\Api-ddd-dotnet6\\Api\\Api.Domain\\Api.Domain.csproj",
         "projectName": "Api.Domain",
-        "projectPath": "C:\\Users\\okea\\source\\repos\\Api\\Api-ddd-dotnet6\\Api\\Api.Domain\\Api.Domain.csproj",
+        "projectPath": "C:\\Users\\okea\\source\\repos\\Api-ddd-dotnet6\\Api\\Api.Domain\\Api.Domain.csproj",
         "packagesPath": "C:\\Users\\okea\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\okea\\source\\repos\\Api\\Api-ddd-dotnet6\\Api\\Api.Domain\\obj\\",
+        "outputPath": "C:\\Users\\okea\\source\\repos\\Api-ddd-dotnet6\\Api\\Api.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

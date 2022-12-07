@@ -9,6 +9,7 @@ using Api.Application.Authentication.Commands.Register;
 using Api.Application.Authentication.Queries.Login;
 using MapsterMapper;
 using Microsoft.AspNetCore.Authorization;
+using Api.Infrastructure.Authentication;
 
 namespace Api.Api.Controllers;
 [Route("auth")]
@@ -29,13 +30,12 @@ public class AuthenticationController : ApiController
     {
         var command = _mapper.Map<RegisterCommand>(request);
         ErrorOr<AuthenticationResult> authResult = await _mediator.Send(command);
+        CryptographToken cryptographToken = new CryptographToken();
+        authResult.Value.user.Email = cryptographToken.Criptografar(authResult.Value.user.Email);
 
         return authResult.Match(
             authResult => Ok(_mapper.Map<AuthenticationResponse>(authResult)),
             errors => Problem(errors));
-
-        //AuthenticationResult response = NewMethod(authResult);
-        //return Ok(response);
     }
 
     [HttpPost("login")]

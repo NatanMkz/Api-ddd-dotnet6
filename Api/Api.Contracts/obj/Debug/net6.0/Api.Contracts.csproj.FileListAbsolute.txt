@@ -22,3 +22,15 @@ C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Contracts\obj\Debug\net6.
 C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Contracts\obj\Debug\net6.0\refint\Api.Contracts.dll
 C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Contracts\obj\Debug\net6.0\Api.Contracts.pdb
 C:\Users\okea\source\repos\Api\Api-ddd-dotnet6\Api\Api.Contracts\obj\Debug\net6.0\ref\Api.Contracts.dll
+C:\Users\okea\source\repos\Api-ddd-dotnet6\Api\Api.Contracts\bin\Debug\net6.0\Api.Contracts.deps.json
+C:\Users\okea\source\repos\Api-ddd-dotnet6\Api\Api.Contracts\bin\Debug\net6.0\Api.Contracts.dll
+C:\Users\okea\source\repos\Api-ddd-dotnet6\Api\Api.Contracts\bin\Debug\net6.0\Api.Contracts.pdb
+C:\Users\okea\source\repos\Api-ddd-dotnet6\Api\Api.Contracts\obj\Debug\net6.0\Api.Contracts.csproj.AssemblyReference.cache
+C:\Users\okea\source\repos\Api-ddd-dotnet6\Api\Api.Contracts\obj\Debug\net6.0\Api.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\okea\source\repos\Api-ddd-dotnet6\Api\Api.Contracts\obj\Debug\net6.0\Api.Contracts.AssemblyInfoInputs.cache
+C:\Users\okea\source\repos\Api-ddd-dotnet6\Api\Api.Contracts\obj\Debug\net6.0\Api.Contracts.AssemblyInfo.cs
+C:\Users\okea\source\repos\Api-ddd-dotnet6\Api\Api.Contracts\obj\Debug\net6.0\Api.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\okea\source\repos\Api-ddd-dotnet6\Api\Api.Contracts\obj\Debug\net6.0\Api.Contracts.dll
+C:\Users\okea\source\repos\Api-ddd-dotnet6\Api\Api.Contracts\obj\Debug\net6.0\refint\Api.Contracts.dll
+C:\Users\okea\source\repos\Api-ddd-dotnet6\Api\Api.Contracts\obj\Debug\net6.0\Api.Contracts.pdb
+C:\Users\okea\source\repos\Api-ddd-dotnet6\Api\Api.Contracts\obj\Debug\net6.0\ref\Api.Contracts.dll
